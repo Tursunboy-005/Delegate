@@ -2,6 +2,8 @@
 {
     internal class Program
     {
+        public delegate int Operation(int x, int y);
+        
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
