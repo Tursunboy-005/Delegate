@@ -38,8 +38,6 @@
         {
             Console.WriteLine($"Add: {x} * {y} = {x * y}");
             return (x * y);
-        }
-
-        
+        }        
     }
 }
