@@ -6,7 +6,12 @@
         
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Operation operation = Add;
+            operation += Divide;
+            operation += Subtract;
+            operation += Multiply;
+
+            operation(5, 5);
         }
         static int Add(int x, int y)
         {
